@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paint Extension</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <img src="/banner.png" width="300" height="auto">
+  <canvas id="paintCanvas" width="750" height="600"></canvas>
+  <div>
+    <button id="clearBtn">Clear</button>
+    <button id="pencilBtn">Pencil</button>
+    <button id="eraserBtn">Eraser</button>
+    <button id="fillBtn">Fill</button>
+    <button id="lineBtn">Line</button>
+    <input type="color" id="colorPicker" value="#000000">
+    <input type="range" id="brushSize" min="1" max="20" value="5">
+    <button id="downloadBtn">Download</button>
+    <input type="text" id="fileName" placeholder="filename here...">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

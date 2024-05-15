@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Paint Extension",
+  "version": "1.0",
+  "description": "A simple paint tool for Chrome.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "paint.png"
+ },
+"permissions": [
+    "activeTab"
+  ]    
+}
